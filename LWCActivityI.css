@@ -1,0 +1,26 @@
+h1 {
+    color: cornflowerblue;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.lwclactivityI {
+    background-color: white;
+}
+
+.label {
+    color: cyan;
+}
+
+.centralize {
+    text-align: center;
+    font-size: medium;
+}
+
+div {
+    background-color: black;
+    border-radius: 5px;
+}
