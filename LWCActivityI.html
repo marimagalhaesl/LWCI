@@ -1,0 +1,30 @@
+<template>
+    <lightning-card>
+        <h1 class="slds-text-heading_large slds-m-around_small">LWC I - Questão 1</h1>
+
+
+        <div class="slds-m-around_small" if:true={visibleOne}>
+            <p><span class="label">Empresa:</span> {empresa}</p>
+            <p><span class="label">CNPJ:</span> {cnpj}</p>
+            <p><span class="label">Endereço:</span> {endereco}</p>
+        </div>
+
+        <div class="slds-m-around_small" if:true={visibleTwo}>
+            <p><span class="label">Produto:</span> {produto}</p>
+            <p><span class="label">Descrição:</span> {descricao}</p>
+            <p><span class="label">Preço:</span> R${preco}</p>
+        </div>
+
+        <div class="slds-m-around_small" if:true={visibleThree}>
+            <p class="centralize"><span class="label">Promoção</span></p>
+            <p><span class="label">Oferta 1:</span> R${oferta1}</p>
+            <p><span class="label">Oferta 2:</span> R${oferta2}</p>
+        </div>
+
+        <lightning-button variant="brand" label="Veja mais!" title="Primary action" onclick={ocultar} class="slds-m-left_x-small slds-align_absolute-center"></lightning-button>
+
+
+
+
+    </lightning-card>
+</template>
